@@ -1,0 +1,33 @@
+#! /bin/bash
+# /etc/init.d/p-script
+# p-script init.d 
+
+touch /var/lock/p-script
+case "$1" in
+  start)
+        echo "start"
+	/usr/bin/p-start
+	;;
+  stop)
+        echo "stop"
+	/usr/bin/p-stop
+	;;
+  reload|force-reload)
+        echo "reload"
+	/usr/bin/p-reload
+	;;
+  restart)
+        echo "restart"
+	/usr/bin/p-restart
+	;;
+  status)
+        echo "status"
+	/usr/bin/p-status
+	;;
+  *)
+	echo "Usage : service p-script status|start|stop|restart|reload "
+        exit 1
+	;;
+esac
+
+exit 0

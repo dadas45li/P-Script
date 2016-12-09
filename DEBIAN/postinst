@@ -1,0 +1,2 @@
+#!/bin/sh -e
+ln -s /etc/init.d/p-script /etc/rc3.d/S01p-script
