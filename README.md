@@ -6,5 +6,6 @@
 Boot sırasında başlatılacak olan bu servis p-start betiğini çalıştıracaktır. 
 
 Servisi durdurmaya kalktığınızda ise p-stop çalışacaktır. 
-diğer betikler için kaynak kodu inceleyiniz...
+
+Diğer betikler için kaynak kodu inceleyiniz...
 
