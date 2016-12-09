@@ -25,4 +25,6 @@ Diğer betikler için kaynak kodu inceleyiniz...
 Not:Çıkartılacak yolda boşluk karakteri olmamalıdır. ayrıca dpkg -b komutuna tam yolu girin "~", "./", "../" gibi karakterler kullanmayın.
 
 #Alternatif kurulum:
--Verdiğim deb paketini indirin ve kurun
+1- https://github.com/parduscix/P-Script/raw/master/p-script_1.0_all.deb adresinden deb paketini indirin.
+
+2- deb paketini burun
