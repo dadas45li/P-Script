@@ -23,3 +23,6 @@ Diğer betikler için kaynak kodu inceleyiniz...
 6- Servis otomatik olarak etkinleşecektir.
 
 Not:Çıkartılacak yolda boşluk karakteri olmamalıdır. ayrıca dpkg -b komutuna tam yolu girin "~", "./", "../" gibi karakterler kullanmayın.
+
+#Alternatif kurulum:
+-Verdiğim deb paketini indirin ve kurun
