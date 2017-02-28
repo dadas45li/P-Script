@@ -4,6 +4,6 @@ Section: debug
 Installed-Size: 8
 Maintainer: Ali Rıza KESKİN <aliriza.keskin@pardustopluluk.org>
 Architecture: all
-Version: 1.0
+Version: 2.0
 Description: Make custom boot script
  Custom boot script maker

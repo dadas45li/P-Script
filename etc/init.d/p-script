@@ -6,19 +6,19 @@ touch /var/lock/p-script
 case "$1" in
   start)
         echo "start"
-	/usr/bin/p-start
+	/etc/p-modules/p-start/*
 	;;
   stop)
         echo "stop"
-	/usr/bin/p-stop
+	/etc/p-modules/p-stop/*
 	;;
   reload|force-reload)
         echo "reload"
-	/usr/bin/p-reload
+	/etc/p-modules/p-reload/*
 	;;
   restart)
         echo "restart"
-	/usr/bin/p-restart
+	/etc/p-modules/p-restart/*
 	;;
   status)
         echo "status"

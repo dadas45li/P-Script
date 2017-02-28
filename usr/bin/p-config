@@ -1,0 +1,2 @@
+#!/bin/sh
+/etc/p-modules/p-config/$*
