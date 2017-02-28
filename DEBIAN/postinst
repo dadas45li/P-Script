@@ -1,3 +1,2 @@
 #!/bin/bash
 ln -s /etc/init.d/p-script /etc/rc3.d/S01p-script
-chmod +x /etc/p-modules/*/*
