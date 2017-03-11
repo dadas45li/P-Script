@@ -29,5 +29,5 @@ case "$1" in
         exit 1
 	;;
 esac
-
+echo "$(date)" >> /var/lock/p-script
 exit 0
